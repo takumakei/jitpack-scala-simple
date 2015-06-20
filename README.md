@@ -19,7 +19,7 @@ To use it in your `build.sbt` add:
               populateRelease(myArr);
           }
       }
-      xmlhttp.open("GET", "https://api.github.com/repos/" user + "/" + repo + "/releases", true);
+      xmlhttp.open("GET", "https://api.github.com/repos/" + user + "/" + repo + "/releases", true);
       xmlhttp.send();
 
       function populateRelease(arr) {
