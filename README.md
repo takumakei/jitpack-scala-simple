@@ -6,8 +6,7 @@ Example Scala project
 
 To use it in your `build.sbt` add:
 
-<pre class="prettyprint">resolvers += "jitpack" at "https://jitpack.io"
-libraryDependencies += "com.github.takumakei" %% "jitpack-scala-simple" % "<span id="latest_release"></span>"</pre>
+<pre class="prettyprint">resolvers += "jitpack" at "https://jitpack.io"<br><br>libraryDependencies += "com.github.takumakei" % "jitpack-scala-simple" % "<span id="latest_release"></span>"</pre>
 
 <script>
       var user = 'takumakei';
