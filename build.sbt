@@ -1,8 +1,6 @@
-name := "gitpack-scala-simple"
+name := "gitpack-scala-simple_2.11"
 
 organization := "com.github.takumakei"
-
-version := "0.0.1"
 
 scalaVersion := "2.11.6"
 
@@ -16,5 +14,3 @@ scalacOptions in ThisBuild ++= Seq(
   "-Ywarn-value-discard",
   "-Xfatal-warnings"
 )
-
-crossScalaVersions := Seq("2.10.5", "2.11.6")
