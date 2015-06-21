@@ -2,7 +2,7 @@ name := "gitpack-scala-simple"
 
 organization := "com.github.takumakei"
 
-scalaVersion := "2.10.5"
+scalaVersion := "2.11.6"
 
 scalacOptions in ThisBuild ++= Seq(
   "-deprecation",
